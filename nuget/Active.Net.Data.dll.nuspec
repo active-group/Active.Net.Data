@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Active.Net.Data</id>
+    <version>0.1</version>
+    <authors>Andreas Bernauer, Helmut Dobretzberger, Michael Sperber</authors>
+    <owners>Active Group</owners>
+    <licenseUrl>https://www.eclipse.org/legal/epl-v10.html</licenseUrl>
+    <projectUrl>https://github.com/active-group/Active.Net.Logging</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Small collection of useful functions about .Net data</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2015 Active Group GmbH</copyright>
+    <tags>.NET FSharp</tags>
+    <dependencies>
+      <dependency id="NLog" version="4.2.0" />
+      <!--FsCheck FsCheck.NUnit FSharp.Core FSharp.Data FSharpx.Async FSharpx.Collections FSharpx.Extras
+      FsPickler FsUnit.NUnit -->
+    </dependencies>
+  </metadata>
+  <files>
+  	<file src="../bin/Debug/Active.Net.dll" target="lib/net45"/>
+  </files>
+</package>
