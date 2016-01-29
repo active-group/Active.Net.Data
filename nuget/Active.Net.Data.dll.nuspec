@@ -20,6 +20,6 @@
     </dependencies>
   </metadata>
   <files>
-  	<file src="../bin/Debug/Active.Net.dll" target="lib/net45"/>
+  	<file src="C:\ext1\Active.Net.Data\bin\Debug\Active.Net.dll" target="lib/net45"/>
   </files>
 </package>
