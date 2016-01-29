@@ -71,71 +71,48 @@
     <Compile Include="AccountManagement.fs" />
     <Content Include="packages.config" />
     <Content Include="app.config" />
-    <Compile Include="FsCheckAddin.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FsCheck">
-      <HintPath>..\TuevLokalisierung\packages\FsCheck.2.0.7\lib\net45\FsCheck.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\FsCheck.2.0.7\lib\net45\FsCheck.dll</HintPath>
     </Reference>
     <Reference Include="FsCheck.NUnit">
-      <HintPath>..\TuevLokalisierung\packages\FsCheck.NUnit.2.0.7\lib\net45\FsCheck.NUnit.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\FsCheck.NUnit.2.0.7\lib\net45\FsCheck.NUnit.dll</HintPath>
     </Reference>
     <Reference Include="FsCheck.NUnit.Addin">
-      <HintPath>..\TuevLokalisierung\packages\FsCheck.NUnit.2.0.7\lib\net45\FsCheck.NUnit.Addin.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\FsCheck.NUnit.2.0.7\lib\net45\FsCheck.NUnit.Addin.dll</HintPath>
     </Reference>
     <Reference Include="FSharp.Control.AsyncSeq">
-      <HintPath>..\TuevLokalisierung\packages\FSharp.Control.AsyncSeq.2.0.1\lib\net45\FSharp.Control.AsyncSeq.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\FSharp.Control.AsyncSeq.2.0.1\lib\net45\FSharp.Control.AsyncSeq.dll</HintPath>
     </Reference>
     <Reference Include="FSharp.Core">
-      <HintPath>..\TuevLokalisierung\packages\FSharp.Core.3.1.2.5\lib\net40\FSharp.Core.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="FSharp.Data">
-      <HintPath>..\TuevLokalisierung\packages\FSharp.Data.2.2.5\lib\net40\FSharp.Data.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\FSharp.Data.2.2.5\lib\net40\FSharp.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.Data.DesignTime">
+      <HintPath>packages\FSharp.Data.2.2.5\lib\net40\FSharp.Data.DesignTime.dll</HintPath>
     </Reference>
     <Reference Include="FSharpx.Async">
-      <HintPath>..\TuevLokalisierung\packages\FSharpx.Async.1.12.0\lib\net40\FSharpx.Async.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\FSharpx.Async.1.12.0\lib\net40\FSharpx.Async.dll</HintPath>
     </Reference>
     <Reference Include="FSharpx.Collections">
-      <HintPath>..\TuevLokalisierung\packages\FSharpx.Collections.1.10.1\lib\net40\FSharpx.Collections.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\FSharpx.Collections.1.10.1\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\FSharpx.Collections.dll</HintPath>
     </Reference>
     <Reference Include="FSharpx.Extras">
-      <HintPath>..\TuevLokalisierung\packages\FSharpx.Extras.1.10.2\lib\40\FSharpx.Extras.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\FSharpx.Extras.1.10.2\lib\40\FSharpx.Extras.dll</HintPath>
     </Reference>
     <Reference Include="FsPickler">
-      <HintPath>..\TuevLokalisierung\packages\FsPickler.1.3.7\lib\net45\FsPickler.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\FsPickler.1.3.7\lib\net45\FsPickler.dll</HintPath>
     </Reference>
     <Reference Include="FsUnit.CustomMatchers">
-      <HintPath>..\TuevLokalisierung\packages\FsUnit.1.3.1.0\lib\FsUnit.CustomMatchers.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\FsUnit.1.3.1.0\lib\FsUnit.CustomMatchers.dll</HintPath>
     </Reference>
     <Reference Include="FsUnit.NUnit">
-      <HintPath>..\TuevLokalisierung\packages\FsUnit.1.3.1.0\lib\FsUnit.NUnit.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\FsUnit.1.3.1.0\lib\FsUnit.NUnit.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
-    <Reference Include="NLog">
-      <HintPath>..\TuevLokalisierung\packages\NLog.4.1.1\lib\net45\NLog.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="nunit.core">
-      <HintPath>..\TuevLokalisierung\packages\NUnit.Runners.2.6.4\tools\lib\nunit.core.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.core.interfaces">
-      <HintPath>..\TuevLokalisierung\packages\NUnit.Runners.2.6.4\tools\lib\nunit.core.interfaces.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>..\TuevLokalisierung\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
